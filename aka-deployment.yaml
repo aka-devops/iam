@@ -14,7 +14,7 @@ spec:
         app: iam
     spec:
       containers:
-      - image: anilapato/iam:1:0:0
+      - image: anilapato/iam:1.0.0
         name: aka-iam
         ports:
         - containerPort: 80
