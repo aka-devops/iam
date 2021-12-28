@@ -29,3 +29,7 @@ metadata:
   name: reg-aka-cred
   namespace: argocd
 type: kubernetes.io/dockerconfigjson
+
+***************
+ANNOTATIONS
+argocd-image-updater.argoproj.io/image-list=server=index.docker.io/anilapato/iam:1.x.x argocd-image-updater.argoproj.io/server.force-update=true argocd-image-updater.argoproj.io/server.helm.image-name=image.repository argocd-image-updater.argoproj.io/server.helm.image-tag=image.tag
